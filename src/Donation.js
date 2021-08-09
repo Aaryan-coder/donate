@@ -1,0 +1,21 @@
+import React from 'react';
+import {Link} from "react-router-dom"
+
+function Donation(){
+	return(
+		<div className = 'donation'>
+		<h2>Thank you for Logging in.</h2>
+		<h2>We welcome you to our campaign.</h2>
+		<br />
+		<hr />
+			<h1>What would you like to donate?</h1>
+			<br />
+			<button type = "button" className = 'left-btn' ><Link className ='underline' to = "/Clothes" ><div className = 'bright'>Clothes</div></Link></button>
+			<button type = "button" className = 'right-btn'>Food</button>
+			<br />
+			
+		</div>
+		)
+}
+
+export default Donation;
