@@ -1,3 +1,4 @@
+  
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
@@ -85,6 +86,8 @@ li {
 }
 .cover{
     width:100%;
+    background-size: cover;
+
     /*margin-left: 325px;
     margin-top: 70px;*/
 }
@@ -168,7 +171,6 @@ nav{
 .center {
   text-align: center;
   padding: 100px;
-  margin-top: 30px;
 }
 .form {
   margin-top: 2rem;
@@ -224,7 +226,7 @@ p{
   color: #D2006B;
 }
 .color{
-  color: white;
+  color: black;
 }
 .donation h1{
   text-align: center;
@@ -272,4 +274,645 @@ hr{
 .clothes{
   text-align: center;
 
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container3 {
+  height: 180vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(148.46deg, #fffd87, #ff6677, #ff5f9a, #00d2ff);
+}
+
+.card3 {
+  height: 1150px;
+  width: 400px;
+  background: linear-gradient(
+    150.46deg,
+    rgba(255, 255, 255, 0.5) -12.61%,
+    rgba(255, 255, 255, 0.25) 110.1%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card3 h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card3 .inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card3 .inputBox input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card3 .btn {
+  background: #fff;
+  color: #000;
+  width: 140px;
+  font-size: 16px;
+  margin-left: 10px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.card .forget {
+  color: #fff;
+}
+
+.card .forget a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+button{
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #D54596;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.container1 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(148.46deg, #fffd87, #ff6677, #ff5f9a, #00d2ff);
+}
+
+.card1 {
+  height: 300px;
+  width: 400px;
+  background: linear-gradient(
+    150.46deg,
+    rgba(255, 255, 255, 0.5) -12.61%,
+    rgba(255, 255, 255, 0.25) 110.1%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+.card1 h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card1 .inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card1 .inputBox input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card1.btn {
+  background: #fff;
+  color: #000;
+  width: 140px;
+  font-size: 45px;
+  margin-left: 10px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.card1 .forget {
+  color: #fff;
+}
+.container2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(148.46deg, #fffd87, #ff6677, #ff5f9a, #00d2ff);
+}
+
+.card2 {
+  height: 600px;
+  width: 400px;
+  background: linear-gradient(
+    150.46deg,
+    rgba(255, 255, 255, 0.5) -12.61%,
+    rgba(255, 255, 255, 0.25) 110.1%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card2 h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card2 .inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card2 .inputBox input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card2 .btn {
+  background: #fff;
+  color: #000;
+  width: 140px;
+  font-size: 16px;
+  margin-left: 130px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+
+}
+.card2 button{
+  cursor:pointer;
+
+}
+.card4 button{
+  cursor:pointer;
+
+}
+
+.container4 {
+  height: 180vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(148.46deg, #fffd87, #ff6677, #ff5f9a, #00d2ff);
+}
+
+.card4 {
+  height: 1150px;
+  width: 400px;
+  background: linear-gradient(
+    150.46deg,
+    rgba(255, 255, 255, 0.5) -12.61%,
+    rgba(255, 255, 255, 0.25) 110.1%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card4 h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card4 .inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card4 .inputBox input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card4 .btn {
+  background: #fff;
+  color: #000;
+  width: 140px;
+  font-size: 16px;
+  margin-left: 130px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+
+}
+.click button{
+  margin: 10px;
+  font-size: 18px;
+}
+.card5 button{
+  cursor:pointer;
+
+}
+
+.container5 {
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(148.46deg, #fffd87, #ff6677, #ff5f9a, #00d2ff);
+}
+
+.card5 {
+  height: 900px;
+  width: 400px;
+  background: linear-gradient(
+    150.46deg,
+    rgba(255, 255, 255, 0.5) -12.61%,
+    rgba(255, 255, 255, 0.25) 110.1%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card5 h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card5 .inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card5 .inputBox input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card5 .btn {
+  background: #fff;
+  color: #000;
+  width: 140px;
+  font-size: 16px;
+  margin-left: 130px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+
+}
+.container6 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(148.46deg, #fffd87, #ff6677, #ff5f9a, #00d2ff);
+}
+
+.card6 {
+  height: 300px;
+  width: 400px;
+  background: linear-gradient(
+    150.46deg,
+    rgba(255, 255, 255, 0.5) -12.61%,
+    rgba(255, 255, 255, 0.25) 110.1%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card6 h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card6 .inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card6 .inputBox input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card6 .btn {
+  background: #fff;
+  color: #000;
+  width: 140px;
+  font-size: 16px;
+  margin-left: 130px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+
+}
+.card6 button{
+  cursor:pointer;
+
+}
+.container7 {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(148.46deg, #fffd87, #ff6677, #ff5f9a, #00d2ff);
+}
+
+.card7 {
+  height: 500px;
+  width: 400px;
+  background: linear-gradient(
+    150.46deg,
+    rgba(255, 255, 255, 0.5) -12.61%,
+    rgba(255, 255, 255, 0.25) 110.1%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card7 h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card7 .inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card7 .inputBox input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card7 .btn {
+  background: #fff;
+  color: #000;
+  width: 140px;
+  font-size: 16px;
+  margin-left: 130px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+
+}
+.card7 button{
+  cursor:pointer;
+
+}
+.container8 {
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(148.46deg, #fffd87, #ff6677, #ff5f9a, #00d2ff);
+}
+
+.card8 {
+  height: 900px;
+  width: 400px;
+  background: linear-gradient(
+    150.46deg,
+    rgba(255, 255, 255, 0.5) -12.61%,
+    rgba(255, 255, 255, 0.25) 110.1%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card8 h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card8 .inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card8 .inputBox input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card8 .btn {
+  background: #fff;
+  color: #000;
+  width: 140px;
+  font-size: 16px;
+  margin-left: 130px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+
+}
+.card8 button{
+  cursor:pointer;
+
+}
+.clothlist{
+  width: 90vw;
+  max-width: 1170vw;
+  margin: 5rem auto;
+  display: grid;
+  grid-gap: 2rem;
+}
+
+@media screen and (min-width: 768px){
+  .clothlist{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+.head{
+  color: #A72CDD;
+}
+.head2{
+  color: #6339DF;
+  font-family: 'Klee One', cursive;
+}
+
+.card9 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 400px;
+  background: linear-gradient(
+    150.46deg,
+    rgba(255, 255, 255, 0.5) -12.61%,
+    rgba(255, 255, 255, 0.25) 110.1%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+.Find{
+  cursor: pointer;
+}
+
+.img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.about{
+  text-align: center;
+}
+.underline1 {
+  height: 0.25rem;
+  width: 8rem;
+  background: #8B0158;
+  margin-left: auto;
+  margin-right: auto;
 }
