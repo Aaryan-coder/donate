@@ -11,7 +11,7 @@ function Donation(){
 			<h1>What would you like to donate?</h1>
 			<br />
 			<button type = "button" className = 'left-btn' ><Link className ='underline' to = "/Clothes" ><div className = 'bright'>Clothes</div></Link></button>
-			<button type = "button" className = 'right-btn'>Food</button>
+			<button type = "button" className = 'right-btn'><Link className ='underline' to = "/Food" ><div className = 'bright'>Food</div></Link></button>
 			<br />
 			
 		</div>
