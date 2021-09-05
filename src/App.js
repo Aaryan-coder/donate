@@ -13,6 +13,13 @@ import Admin from './Admin'
 import Register from './Register'
 import Donation from './Donation'
 import Clothes from './Clothes'
+import Food from './Food';
+import Register_charity from './Register_charity';
+import Locality from './Locality';
+import Search from './Search';
+import Clothes_search from './Clothes_search';
+import Food_details from './Food_details';
+import Cloth_details from './Cloth_details';
 import {  BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 function App(){
@@ -33,7 +40,12 @@ function App(){
     <Route path = "/Register" component = {Register} />
     <Route path = "/Donation" component = {Donation} />
     <Route path = "/Clothes" component = {Clothes} />
-
+    <Route path = "/Food" component = {Food} />
+    <Route path = "/Register_charity" component = {Register_charity} />
+    <Route path = "/Locality" component = {Locality} />
+    <Route path = "/Search" component = {Search} />
+    <Route path = "/Cloth_details" component = {Cloth_details} />
+    <Route path = "/Food_details" component = {Food_details} />
     </Switch>
       </div>
       </Router>
